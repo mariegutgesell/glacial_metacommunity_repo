@@ -1,0 +1,309 @@
+"","Date","Stream","Variable","value"
+"1",2018-03-19,"Snow-fed","Turbidity (NTU)",0.256666666666667
+"2",2018-03-19,"Snow-fed","Total Dissolved Phosphorous (μg/L)",3.9197
+"3",2018-03-19,"Snow-fed","Dissolved Organic Carbon (mg/L)",1.07366666666667
+"4",2018-03-19,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.1101
+"5",2018-04-18,"Snow-fed","Turbidity (NTU)",0.236666666666667
+"6",2018-04-18,"Snow-fed","Total Dissolved Phosphorous (μg/L)",5.0443
+"7",2018-04-18,"Snow-fed","Dissolved Organic Carbon (mg/L)",1.24
+"8",2018-04-18,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.114966666666667
+"9",2018-05-01,"Snow-fed","Turbidity (NTU)",2.20666666666667
+"10",2018-05-01,"Snow-fed","Total Dissolved Phosphorous (μg/L)",4.7475
+"11",2018-05-01,"Snow-fed","Dissolved Organic Carbon (mg/L)",2.534
+"12",2018-05-01,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.07856
+"13",2018-05-15,"Snow-fed","Turbidity (NTU)",0.543333333333333
+"14",2018-05-15,"Snow-fed","Total Dissolved Phosphorous (μg/L)",7.1219
+"15",2018-05-15,"Snow-fed","Dissolved Organic Carbon (mg/L)",1.46566666666667
+"16",2018-05-15,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.1106
+"17",2018-05-31,"Snow-fed","Turbidity (NTU)",0.28
+"18",2018-05-31,"Snow-fed","Total Dissolved Phosphorous (μg/L)",5.0443
+"19",2018-05-31,"Snow-fed","Dissolved Organic Carbon (mg/L)",0.9801
+"20",2018-05-31,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0654366666666667
+"21",2018-06-13,"Snow-fed","Turbidity (NTU)",0.506666666666667
+"22",2018-06-13,"Snow-fed","Total Dissolved Phosphorous (μg/L)",3.78638
+"23",2018-06-13,"Snow-fed","Dissolved Organic Carbon (mg/L)",1.1385
+"24",2018-06-13,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.05323
+"25",2018-06-27,"Snow-fed","Turbidity (NTU)",0.43
+"26",2018-06-27,"Snow-fed","Total Dissolved Phosphorous (μg/L)",4.11164
+"27",2018-06-27,"Snow-fed","Dissolved Organic Carbon (mg/L)",0.7253
+"28",2018-06-27,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0410533333333333
+"29",2018-07-11,"Snow-fed","Turbidity (NTU)",0.416666666666667
+"30",2018-07-11,"Snow-fed","Total Dissolved Phosphorous (μg/L)",4.11164
+"31",2018-07-11,"Snow-fed","Dissolved Organic Carbon (mg/L)",2.43566666666667
+"32",2018-07-11,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.07104
+"33",2018-07-25,"Snow-fed","Turbidity (NTU)",0.333333333333333
+"34",2018-07-25,"Snow-fed","Total Dissolved Phosphorous (μg/L)",5.06724
+"35",2018-07-25,"Snow-fed","Dissolved Organic Carbon (mg/L)",0.862766666666667
+"36",2018-07-25,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0547566666666667
+"37",2018-08-09,"Snow-fed","Turbidity (NTU)",1.17666666666667
+"38",2018-08-09,"Snow-fed","Total Dissolved Phosphorous (μg/L)",8.03976
+"39",2018-08-09,"Snow-fed","Dissolved Organic Carbon (mg/L)",5.23533333333333
+"40",2018-08-09,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.116333333333333
+"41",2018-08-15,"Snow-fed","Turbidity (NTU)",1.48333333333333
+"42",2018-08-15,"Snow-fed","Total Dissolved Phosphorous (μg/L)",3.41584
+"43",2018-08-15,"Snow-fed","Dissolved Organic Carbon (mg/L)",2.56733333333333
+"44",2018-08-15,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0856833333333333
+"45",2018-09-13,"Snow-fed","Turbidity (NTU)",0.216666666666667
+"46",2018-09-13,"Snow-fed","Total Dissolved Phosphorous (μg/L)",4.40668
+"47",2018-09-13,"Snow-fed","Dissolved Organic Carbon (mg/L)",0.7155
+"48",2018-09-13,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0481166666666667
+"49",2018-10-18,"Snow-fed","Turbidity (NTU)",0.783333333333333
+"50",2018-10-18,"Snow-fed","Total Dissolved Phosphorous (μg/L)",18.20696
+"51",2018-10-18,"Snow-fed","Dissolved Organic Carbon (mg/L)",1.96
+"52",2018-10-18,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.08001
+"53",2018-11-08,"Snow-fed","Turbidity (NTU)",0.496666666666667
+"54",2018-11-08,"Snow-fed","Total Dissolved Phosphorous (μg/L)",2.65419
+"55",2018-11-08,"Snow-fed","Dissolved Organic Carbon (mg/L)",1.16066666666667
+"56",2018-11-08,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0796233333333333
+"57",2018-12-17,"Snow-fed","Turbidity (NTU)",1.69
+"58",2018-12-17,"Snow-fed","Total Dissolved Phosphorous (μg/L)",2.9851
+"59",2018-12-17,"Snow-fed","Dissolved Organic Carbon (mg/L)",2.07866666666667
+"60",2018-12-17,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0766566666666667
+"61",2018-04-18,"Glacier-fed","Turbidity (NTU)",5.62333333333333
+"62",2018-04-18,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",5.0443
+"63",2018-04-18,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.40066666666667
+"64",2018-04-18,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.10675
+"65",2018-04-18,"Rain-fed","Turbidity (NTU)",0.536666666666667
+"66",2018-04-18,"Rain-fed","Total Dissolved Phosphorous (μg/L)",8.6059
+"67",2018-04-18,"Rain-fed","Dissolved Organic Carbon (mg/L)",5.19633333333333
+"68",2018-04-18,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.0984033333333333
+"69",2018-04-18,"Transitional","Turbidity (NTU)",1.06666666666667
+"70",2018-04-18,"Transitional","Total Dissolved Phosphorous (μg/L)",3.8571
+"71",2018-04-18,"Transitional","Dissolved Organic Carbon (mg/L)",2.021
+"72",2018-04-18,"Transitional","Total Dissolved Nitrogen (mg/L)",0.204266666666667
+"73",2018-05-01,"Glacier-fed","Turbidity (NTU)",6.33333333333333
+"74",2018-05-01,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",4.7475
+"75",2018-05-01,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.609
+"76",2018-05-01,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.108733333333333
+"77",2018-05-01,"Rain-fed","Turbidity (NTU)",0.586666666666667
+"78",2018-05-01,"Rain-fed","Total Dissolved Phosphorous (μg/L)",6.5283
+"79",2018-05-01,"Rain-fed","Dissolved Organic Carbon (mg/L)",5.62066666666667
+"80",2018-05-01,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.100363333333333
+"81",2018-05-01,"Transitional","Turbidity (NTU)",7.75666666666667
+"82",2018-05-01,"Transitional","Total Dissolved Phosphorous (μg/L)",5.6379
+"83",2018-05-01,"Transitional","Dissolved Organic Carbon (mg/L)",2.82166666666667
+"84",2018-05-01,"Transitional","Total Dissolved Nitrogen (mg/L)",0.182433333333333
+"85",2018-05-15,"Glacier-fed","Turbidity (NTU)",370
+"86",2018-05-15,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",32.0531
+"87",2018-05-15,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.6929
+"88",2018-05-15,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.103123333333333
+"89",2018-05-15,"Rain-fed","Turbidity (NTU)",0.78
+"90",2018-05-15,"Rain-fed","Total Dissolved Phosphorous (μg/L)",6.2315
+"91",2018-05-15,"Rain-fed","Dissolved Organic Carbon (mg/L)",6.59366666666667
+"92",2018-05-15,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.125433333333333
+"93",2018-05-15,"Transitional","Turbidity (NTU)",2.33333333333333
+"94",2018-05-15,"Transitional","Total Dissolved Phosphorous (μg/L)",11.8707
+"95",2018-05-15,"Transitional","Dissolved Organic Carbon (mg/L)",1.74466666666667
+"96",2018-05-15,"Transitional","Total Dissolved Nitrogen (mg/L)",0.1525
+"97",2018-05-31,"Glacier-fed","Turbidity (NTU)",49.8666666666667
+"98",2018-05-31,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",15.1355
+"99",2018-05-31,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.725833333333333
+"100",2018-05-31,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0638733333333333
+"101",2018-05-31,"Rain-fed","Turbidity (NTU)",0.58
+"102",2018-05-31,"Rain-fed","Total Dissolved Phosphorous (μg/L)",9.4963
+"103",2018-05-31,"Rain-fed","Dissolved Organic Carbon (mg/L)",6.419
+"104",2018-05-31,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.1341
+"105",2018-05-31,"Transitional","Turbidity (NTU)",0.626666666666667
+"106",2018-05-31,"Transitional","Total Dissolved Phosphorous (μg/L)",4.7475
+"107",2018-05-31,"Transitional","Dissolved Organic Carbon (mg/L)",0.9418
+"108",2018-05-31,"Transitional","Total Dissolved Nitrogen (mg/L)",0.114066666666667
+"109",2018-06-13,"Glacier-fed","Turbidity (NTU)",46.9
+"110",2018-06-13,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",56.80376
+"111",2018-06-13,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.468866666666667
+"112",2018-06-13,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0307466666666667
+"113",2018-06-13,"Rain-fed","Turbidity (NTU)",0.66
+"114",2018-06-13,"Rain-fed","Total Dissolved Phosphorous (μg/L)",11.91788
+"115",2018-06-13,"Rain-fed","Dissolved Organic Carbon (mg/L)",7.40866666666667
+"116",2018-06-13,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.120866666666667
+"117",2018-06-13,"Transitional","Turbidity (NTU)",1.06666666666667
+"118",2018-06-13,"Transitional","Total Dissolved Phosphorous (μg/L)",13.86944
+"119",2018-06-13,"Transitional","Dissolved Organic Carbon (mg/L)",1.34266666666667
+"120",2018-06-13,"Transitional","Total Dissolved Nitrogen (mg/L)",0.0866166666666667
+"121",2018-06-27,"Glacier-fed","Turbidity (NTU)",43.8
+"122",2018-06-27,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",401.90462
+"123",2018-06-27,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.350033333333333
+"124",2018-06-27,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.04438
+"125",2018-06-27,"Rain-fed","Turbidity (NTU)",0.966666666666667
+"126",2018-06-27,"Rain-fed","Total Dissolved Phosphorous (μg/L)",39.89024
+"127",2018-06-27,"Rain-fed","Dissolved Organic Carbon (mg/L)",4.26566666666667
+"128",2018-06-27,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.159733333333333
+"129",2018-06-27,"Transitional","Turbidity (NTU)",1.69333333333333
+"130",2018-06-27,"Transitional","Total Dissolved Phosphorous (μg/L)",144.62396
+"131",2018-06-27,"Transitional","Dissolved Organic Carbon (mg/L)",0.6597
+"132",2018-06-27,"Transitional","Total Dissolved Nitrogen (mg/L)",0.0887566666666667
+"133",2018-07-11,"Glacier-fed","Turbidity (NTU)",113.666666666667
+"134",2018-07-11,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",80.54774
+"135",2018-07-11,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.313333333333333
+"136",2018-07-11,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0378433333333333
+"137",2018-07-11,"Rain-fed","Turbidity (NTU)",1.10333333333333
+"138",2018-07-11,"Rain-fed","Total Dissolved Phosphorous (μg/L)",18.74834
+"139",2018-07-11,"Rain-fed","Dissolved Organic Carbon (mg/L)",3.72866666666667
+"140",2018-07-11,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.327433333333333
+"141",2018-07-11,"Transitional","Turbidity (NTU)",4.33666666666667
+"142",2018-07-11,"Transitional","Total Dissolved Phosphorous (μg/L)",4.11164
+"143",2018-07-11,"Transitional","Dissolved Organic Carbon (mg/L)",1.15233333333333
+"144",2018-07-11,"Transitional","Total Dissolved Nitrogen (mg/L)",0.0932166666666667
+"145",2018-07-25,"Glacier-fed","Turbidity (NTU)",72.5333333333333
+"146",2018-07-25,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",224.221658536585
+"147",2018-07-25,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.2964
+"148",2018-07-25,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0379666666666667
+"149",2018-07-25,"Rain-fed","Turbidity (NTU)",3.13333333333333
+"150",2018-07-25,"Rain-fed","Total Dissolved Phosphorous (μg/L)",31.48964
+"151",2018-07-25,"Rain-fed","Dissolved Organic Carbon (mg/L)",4.65933333333333
+"152",2018-07-25,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.2054
+"153",2018-07-25,"Transitional","Turbidity (NTU)",3.26666666666667
+"154",2018-07-25,"Transitional","Total Dissolved Phosphorous (μg/L)",34.13188
+"155",2018-07-25,"Transitional","Dissolved Organic Carbon (mg/L)",0.7696
+"156",2018-07-25,"Transitional","Total Dissolved Nitrogen (mg/L)",0.179633333333333
+"157",2018-08-09,"Glacier-fed","Turbidity (NTU)",779.333333333333
+"158",2018-08-09,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",33.8016
+"159",2018-08-09,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.7581
+"160",2018-08-09,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0329766666666667
+"161",2018-08-09,"Rain-fed","Turbidity (NTU)",10.67
+"162",2018-08-09,"Rain-fed","Total Dissolved Phosphorous (μg/L)",9.36088
+"163",2018-08-09,"Rain-fed","Dissolved Organic Carbon (mg/L)",12.93
+"164",2018-08-09,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.1787
+"165",2018-08-09,"Transitional","Turbidity (NTU)",26.1333333333333
+"166",2018-08-09,"Transitional","Total Dissolved Phosphorous (μg/L)",13.9848
+"167",2018-08-09,"Transitional","Dissolved Organic Carbon (mg/L)",6.35033333333333
+"168",2018-08-09,"Transitional","Total Dissolved Nitrogen (mg/L)",0.171766666666667
+"169",2018-08-15,"Glacier-fed","Turbidity (NTU)",215.333333333333
+"170",2018-08-15,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",24.22348
+"171",2018-08-15,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.6226
+"172",2018-08-15,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0381066666666667
+"173",2018-08-15,"Rain-fed","Turbidity (NTU)",2.59
+"174",2018-08-15,"Rain-fed","Total Dissolved Phosphorous (μg/L)",23.8932
+"175",2018-08-15,"Rain-fed","Dissolved Organic Carbon (mg/L)",11.52
+"176",2018-08-15,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.237033333333333
+"177",2018-08-15,"Transitional","Turbidity (NTU)",5.86666666666667
+"178",2018-08-15,"Transitional","Total Dissolved Phosphorous (μg/L)",18.27844
+"179",2018-08-15,"Transitional","Dissolved Organic Carbon (mg/L)",2.61666666666667
+"180",2018-08-15,"Transitional","Total Dissolved Nitrogen (mg/L)",0.109993333333333
+"181",2018-09-13,"Glacier-fed","Turbidity (NTU)",25.4333333333333
+"182",2018-09-13,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",23.56292
+"183",2018-09-13,"Glacier-fed","Dissolved Organic Carbon (mg/L)",0.208433333333333
+"184",2018-09-13,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0109633333333333
+"185",2018-09-13,"Rain-fed","Turbidity (NTU)",0.746666666666667
+"186",2018-09-13,"Rain-fed","Total Dissolved Phosphorous (μg/L)",50.97616
+"187",2018-09-13,"Rain-fed","Dissolved Organic Carbon (mg/L)",5.88466666666667
+"188",2018-09-13,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.262
+"189",2018-09-13,"Transitional","Turbidity (NTU)",2.79
+"190",2018-09-13,"Transitional","Total Dissolved Phosphorous (μg/L)",7.70948
+"191",2018-09-13,"Transitional","Dissolved Organic Carbon (mg/L)",0.8269
+"192",2018-09-13,"Transitional","Total Dissolved Nitrogen (mg/L)",0.117033333333333
+"193",2018-10-18,"Glacier-fed","Turbidity (NTU)",184
+"194",2018-10-18,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",213.318822857143
+"195",2018-10-18,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.83366666666667
+"196",2018-10-18,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.07633
+"197",2018-10-18,"Rain-fed","Turbidity (NTU)",1.23666666666667
+"198",2018-10-18,"Rain-fed","Total Dissolved Phosphorous (μg/L)",8.94148
+"199",2018-10-18,"Rain-fed","Dissolved Organic Carbon (mg/L)",10.5366666666667
+"200",2018-10-18,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.1456
+"201",2018-10-18,"Transitional","Turbidity (NTU)",2.69333333333333
+"202",2018-10-18,"Transitional","Total Dissolved Phosphorous (μg/L)",7.28693
+"203",2018-10-18,"Transitional","Dissolved Organic Carbon (mg/L)",2.57333333333333
+"204",2018-10-18,"Transitional","Total Dissolved Nitrogen (mg/L)",0.132633333333333
+"205",2018-11-08,"Glacier-fed","Turbidity (NTU)",4.19333333333333
+"206",2018-11-08,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",4.97056
+"207",2018-11-08,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.623
+"208",2018-11-08,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.07675
+"209",2018-11-08,"Rain-fed","Turbidity (NTU)",1.09666666666667
+"210",2018-11-08,"Rain-fed","Total Dissolved Phosphorous (μg/L)",11.58876
+"211",2018-11-08,"Rain-fed","Dissolved Organic Carbon (mg/L)",1.387
+"212",2018-11-08,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.1286
+"213",2018-11-08,"Transitional","Turbidity (NTU)",3.06
+"214",2018-11-08,"Transitional","Total Dissolved Phosphorous (μg/L)",3.64692
+"215",2018-11-08,"Transitional","Dissolved Organic Carbon (mg/L)",0.4106
+"216",2018-11-08,"Transitional","Total Dissolved Nitrogen (mg/L)",0.04823
+"217",2018-12-17,"Glacier-fed","Turbidity (NTU)",4.68
+"218",2018-12-17,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",4.30874
+"219",2018-12-17,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.93733333333333
+"220",2018-12-17,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0915233333333333
+"221",2018-12-17,"Rain-fed","Turbidity (NTU)",0.713333333333333
+"222",2018-12-17,"Rain-fed","Total Dissolved Phosphorous (μg/L)",4.63965
+"223",2018-12-17,"Rain-fed","Dissolved Organic Carbon (mg/L)",8.465
+"224",2018-12-17,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.1075
+"225",2018-12-17,"Transitional","Turbidity (NTU)",2.27
+"226",2018-12-17,"Transitional","Total Dissolved Phosphorous (μg/L)",7.94875
+"227",2018-12-17,"Transitional","Dissolved Organic Carbon (mg/L)",2.05533333333333
+"228",2018-12-17,"Transitional","Total Dissolved Nitrogen (mg/L)",0.1443
+"229",2019-01-23,"Glacier-fed","Turbidity (NTU)",3.97
+"230",2019-01-23,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",6.74859737701325
+"231",2019-01-23,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.67066666666667
+"232",2019-01-23,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0876133333333333
+"233",2019-01-23,"Rain-fed","Turbidity (NTU)",1.06
+"234",2019-01-23,"Rain-fed","Total Dissolved Phosphorous (μg/L)",16.5776634121084
+"235",2019-01-23,"Rain-fed","Dissolved Organic Carbon (mg/L)",5.45833333333333
+"236",2019-01-23,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.1115
+"237",2019-01-23,"Transitional","Turbidity (NTU)",1.68
+"238",2019-01-23,"Transitional","Total Dissolved Phosphorous (μg/L)",26.8861960830619
+"239",2019-01-23,"Transitional","Dissolved Organic Carbon (mg/L)",1.50233333333333
+"240",2019-01-23,"Transitional","Total Dissolved Nitrogen (mg/L)",0.181766666666667
+"241",2019-01-23,"Snow-fed","Turbidity (NTU)",0.62
+"242",2019-01-23,"Snow-fed","Total Dissolved Phosphorous (μg/L)",5.17320700205026
+"243",2019-01-23,"Snow-fed","Dissolved Organic Carbon (mg/L)",0.8482
+"244",2019-01-23,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0753166666666667
+"245",2019-02-26,"Glacier-fed","Turbidity (NTU)",2.56666666666667
+"246",2019-02-26,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",NA
+"247",2019-02-26,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.187
+"248",2019-02-26,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.09445
+"249",2019-02-26,"Rain-fed","Turbidity (NTU)",0.406666666666667
+"250",2019-02-26,"Rain-fed","Total Dissolved Phosphorous (μg/L)",NA
+"251",2019-02-26,"Rain-fed","Dissolved Organic Carbon (mg/L)",4.53866666666667
+"252",2019-02-26,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.136333333333333
+"253",2019-02-26,"Transitional","Turbidity (NTU)",1.17
+"254",2019-02-26,"Transitional","Total Dissolved Phosphorous (μg/L)",NA
+"255",2019-02-26,"Transitional","Dissolved Organic Carbon (mg/L)",0.817
+"256",2019-02-26,"Transitional","Total Dissolved Nitrogen (mg/L)",0.1714
+"257",2019-02-26,"Snow-fed","Turbidity (NTU)",0.223333333333333
+"258",2019-02-26,"Snow-fed","Total Dissolved Phosphorous (μg/L)",NA
+"259",2019-02-26,"Snow-fed","Dissolved Organic Carbon (mg/L)",0.590166666666667
+"260",2019-02-26,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0838433333333333
+"261",2019-03-13,"Glacier-fed","Turbidity (NTU)",4.21333333333333
+"262",2019-03-13,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",7.05682592863645
+"263",2019-03-13,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.687
+"264",2019-03-13,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.097
+"265",2019-03-13,"Rain-fed","Turbidity (NTU)",0.733333333333333
+"266",2019-03-13,"Rain-fed","Total Dissolved Phosphorous (μg/L)",NA
+"267",2019-03-13,"Rain-fed","Dissolved Organic Carbon (mg/L)",5.13833333333333
+"268",2019-03-13,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.120066666666667
+"269",2019-03-13,"Transitional","Turbidity (NTU)",1.88666666666667
+"270",2019-03-13,"Transitional","Total Dissolved Phosphorous (μg/L)",NA
+"271",2019-03-13,"Transitional","Dissolved Organic Carbon (mg/L)",2.41266666666667
+"272",2019-03-13,"Transitional","Total Dissolved Nitrogen (mg/L)",0.146133333333333
+"273",2019-03-13,"Snow-fed","Turbidity (NTU)",0.316666666666667
+"274",2019-03-13,"Snow-fed","Total Dissolved Phosphorous (μg/L)",4.52431914010685
+"275",2019-03-13,"Snow-fed","Dissolved Organic Carbon (mg/L)",0.834766666666667
+"276",2019-03-13,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.11598
+"277",2019-04-08,"Glacier-fed","Turbidity (NTU)",8.92666666666667
+"278",2019-04-08,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",NA
+"279",2019-04-08,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.10433333333333
+"280",2019-04-08,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0728333333333333
+"281",2019-04-08,"Rain-fed","Turbidity (NTU)",0.843333333333333
+"282",2019-04-08,"Rain-fed","Total Dissolved Phosphorous (μg/L)",NA
+"283",2019-04-08,"Rain-fed","Dissolved Organic Carbon (mg/L)",5.838
+"284",2019-04-08,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.101243333333333
+"285",2019-04-08,"Transitional","Turbidity (NTU)",1.98333333333333
+"286",2019-04-08,"Transitional","Total Dissolved Phosphorous (μg/L)",NA
+"287",2019-04-08,"Transitional","Dissolved Organic Carbon (mg/L)",1.78466666666667
+"288",2019-04-08,"Transitional","Total Dissolved Nitrogen (mg/L)",0.1368
+"289",2019-04-08,"Snow-fed","Turbidity (NTU)",0.266666666666667
+"290",2019-04-08,"Snow-fed","Total Dissolved Phosphorous (μg/L)",NA
+"291",2019-04-08,"Snow-fed","Dissolved Organic Carbon (mg/L)",1.49566666666667
+"292",2019-04-08,"Snow-fed","Total Dissolved Nitrogen (mg/L)",0.0777966666666667
+"293",2019-05-07,"Glacier-fed","Turbidity (NTU)",40.0666666666667
+"294",2019-05-07,"Glacier-fed","Total Dissolved Phosphorous (μg/L)",8.27716
+"295",2019-05-07,"Glacier-fed","Dissolved Organic Carbon (mg/L)",1.43933333333333
+"296",2019-05-07,"Glacier-fed","Total Dissolved Nitrogen (mg/L)",0.0716966666666667
+"297",2019-05-07,"Rain-fed","Turbidity (NTU)",1.9
+"298",2019-05-07,"Rain-fed","Total Dissolved Phosphorous (μg/L)",4.92456
+"299",2019-05-07,"Rain-fed","Dissolved Organic Carbon (mg/L)",6.527
+"300",2019-05-07,"Rain-fed","Total Dissolved Nitrogen (mg/L)",0.10078
+"301",2019-05-07,"Transitional","Turbidity (NTU)",5.41
+"302",2019-05-07,"Transitional","Total Dissolved Phosphorous (μg/L)",4.25404
+"303",2019-05-07,"Transitional","Dissolved Organic Carbon (mg/L)",4.86733333333333
+"304",2019-05-07,"Transitional","Total Dissolved Nitrogen (mg/L)",0.108
+"305",2019-05-07,"Snow-fed","Turbidity (NTU)",NA
+"306",2019-05-07,"Snow-fed","Total Dissolved Phosphorous (μg/L)",NA
+"307",2019-05-07,"Snow-fed","Dissolved Organic Carbon (mg/L)",NA
+"308",2019-05-07,"Snow-fed","Total Dissolved Nitrogen (mg/L)",NA

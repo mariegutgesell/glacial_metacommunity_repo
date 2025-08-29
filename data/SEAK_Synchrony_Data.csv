@@ -1,0 +1,91 @@
+Variable,SampleType,Synchrony,Glacial,Label
+Turbidity,Background,0.7582266701141923,No Glacial,Turbidity
+TDP,Background,0.30645808962477056,No Glacial,TDP
+DOC,Background,0.8748693912011831,No Glacial,DOC
+TDN,Background,0.2927731105124319,No Glacial,TDN
+Peri. ChlA,Periphyton,0.6224672502434451,No Glacial,Peri. ChlA
+Peri. Biom,Periphyton,0.5238762801212327,No Glacial,Peri. Biom
+Invert. Biomass,Invertebrate,0.7584875746386773,No Glacial,Invert. Biomass
+Invert. Abun.,Invertebrate,0.7166654880715757,No Glacial,Invert. Abun.
+Temp,Background,0.980687410396275,No Glacial,Temp
+Runoff,Background,0.675317752400037,No Glacial,Runoff
+Detr. Biom,Detritus,0.5662845377544476,No Glacial,Detr. Biom
+         Scraper Biomass,Scraper,0.3710225494156607,No Glacial,         Scraper Biomass
+Pred. Biomass,Predator,0.6356211242726565,No Glacial,Pred. Biomass
+Col.Gather Biomass,Collector/Gatherer,0.2616978374087196,No Glacial,Col.Gather Biomass
+Col.Filter Biomass,Collector/Filterer,0.527770488637337,No Glacial,Col.Filter Biomass
+Shred. Biomass,Shredder,0.34793800986774587,No Glacial,Shred. Biomass
+Turbidity,Background,0.9535867877718421,No Snow,Turbidity
+TDP,Background,0.5776716015150996,No Snow,TDP
+DOC,Background,0.5378761799825114,No Snow,DOC
+TDN,Background,0.21566409643492224,No Snow,TDN
+Peri. ChlA,Periphyton,0.49498807361336683,No Snow,Peri. ChlA
+Peri. Biom,Periphyton,0.42689674788504284,No Snow,Peri. Biom
+Invert. Biomass,Invertebrate,0.39798986885662363,No Snow,Invert. Biomass
+Invert. Abun.,Invertebrate,0.3667520387276076,No Snow,Invert. Abun.
+Temp,Background,0.484193562867183,No Snow,Temp
+Runoff,Background,0.5421031565382997,No Snow,Runoff
+Detr. Biom,Detritus,0.4444018992021467,No Snow,Detr. Biom
+         Scraper Biomass,Scraper,0.2921128481580975,No Snow,         Scraper Biomass
+Pred. Biomass,Predator,0.685621230895266,No Snow,Pred. Biomass
+Col.Gather Biomass,Collector/Gatherer,0.25433348595779703,No Snow,Col.Gather Biomass
+Col.Filter Biomass,Collector/Filterer,0.11078421754478623,No Snow,Col.Filter Biomass
+Shred. Biomass,Shredder,0.4870841333198227,No Snow,Shred. Biomass
+Turbidity,Background,0.7657942131634301,No Rain,Turbidity
+TDP,Background,0.5468779676066341,No Rain,TDP
+DOC,Background,0.5419911236445778,No Rain,DOC
+TDN,Background,0.6976172855435663,No Rain,TDN
+Peri. ChlA,Periphyton,0.4888170708351575,No Rain,Peri. ChlA
+Peri. Biom,Periphyton,0.3910725774841031,No Rain,Peri. Biom
+Invert. Biomass,Invertebrate,0.4852466627936066,No Rain,Invert. Biomass
+Invert. Abun.,Invertebrate,0.4717278749117595,No Rain,Invert. Abun.
+Temp,Background,0.4956804578230918,No Rain,Temp
+Runoff,Background,0.581423352246769,No Rain,Runoff
+Detr. Biom,Detritus,0.4819072342940635,No Rain,Detr. Biom
+         Scraper Biomass,Scraper,0.27479448695153413,No Rain,         Scraper Biomass
+Pred. Biomass,Predator,0.5487375677376101,No Rain,Pred. Biomass
+Col.Gather Biomass,Collector/Gatherer,0.5191803831899162,No Rain,Col.Gather Biomass
+Col.Filter Biomass,Collector/Filterer,0.37315187614110373,No Rain,Col.Filter Biomass
+Shred. Biomass,Shredder,0.673354488505187,No Rain,Shred. Biomass
+Turbidity,Background,0.747003870036986,No Transitional,Turbidity
+TDP,Background,0.4357540957482564,No Transitional,TDP
+DOC,Background,0.5028035350914993,No Transitional,DOC
+TDN,Background,0.192449514423011,No Transitional,TDN
+Peri. ChlA,Periphyton,0.4735113318616787,No Transitional,Peri. ChlA
+Peri. Biom,Periphyton,0.3900033296824439,No Transitional,Peri. Biom
+Invert. Biomass,Invertebrate,0.44457115435078914,No Transitional,Invert. Biomass
+Invert. Abun.,Invertebrate,0.4257687104418895,No Transitional,Invert. Abun.
+Temp,Background,0.5290757047087092,No Transitional,Temp
+Runoff,Background,0.40480798940835844,No Transitional,Runoff
+Detr. Biom,Detritus,0.5795995379777514,No Transitional,Detr. Biom
+         Scraper Biomass,Scraper,0.29366148522976077,No Transitional,         Scraper Biomass
+Pred. Biomass,Predator,0.7348602307984462,No Transitional,Pred. Biomass
+Col.Gather Biomass,Collector/Gatherer,0.3841414618767203,No Transitional,Col.Gather Biomass
+Col.Filter Biomass,Collector/Filterer,0.24390647349399625,No Transitional,Col.Filter Biomass
+Shred. Biomass,Shredder,0.32181682820269825,No Transitional,Shred. Biomass
+Turbidity,Background,0.7843489756015078,All Sites,Turbidity
+TDP,Background,0.3936366643000472,All Sites,TDP
+DOC,Background,0.5740183635177867,All Sites,DOC
+TDN,Background,0.26422104467665836,All Sites,TDN
+Peri. ChlA,Periphyton,0.4599391730932135,All Sites,Peri. ChlA
+Peri. Biom,Periphyton,0.3620825130173563,All Sites,Peri. Biom
+Invert. Biomass,Invertebrate,0.4617705420549147,All Sites,Invert. Biomass
+         Scraper Biomass,Scraper,0.2213850727436087,All Sites,         Scraper Biomass
+Pred. Biomass,Predator,0.6041143671313501,All Sites,Pred. Biomass
+Col.Gather Biomass,Collector/Gatherer,0.2741930786218243,All Sites,Col.Gather Biomass
+Col.Filter Biomass,Collector/Filterer,0.13823376062563308,All Sites,Col.Filter Biomass
+Shred. Biomass,Shredder,0.4020270013293915,All Sites,Shred. Biomass
+Fish Abun.,Fish,0.2696459305124836,All Sites,Fish Abun.
+Fish Abun.,Fish,0.5152174403638201,No Glacial,Fish Abun.
+Fish Abun.,Fish,0.2938237628187059,No Snow,Fish Abun.
+Fish Abun.,Fish,0.2166677023301075,No Transitional,Fish Abun.
+Fish Abun.,Fish,0.4143623595502769,No Rain,Fish Abun.
+Fish Biom.,Fish,0.4442472177267511,All Sites,Fish Biom.
+Fish Biom.,Fish,0.4832831868425602,No Glacial,Fish Biom.
+Fish Biom.,Fish,0.5144574689853437,No Snow,Fish Biom.
+Fish Biom.,Fish,0.33898461988495254,No Transitional,Fish Biom.
+Fish Biom.,Fish,0.7454180373604413,No Rain,Fish Biom.
+Invert. Abun.,Invertebrate,0.4321320940429841,All Sites,Invert. Abun.
+Temp,Background,0.5764199671272083,All Sites,Temp
+Runoff,Background,0.4947771954794118,All Sites,Runoff
+Detr. Biom,Detritus,0.45780434009549015,All Sites,Detr. Biom
