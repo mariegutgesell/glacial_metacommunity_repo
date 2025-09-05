@@ -132,9 +132,9 @@ TukeyHSD(meta_aov)
 
 df_3 <- df_2 %>%
   filter(Combination %in% c("Glacier-fed_Rain-fed_Snow-fed", "Rain-fed_Rain-fed_Rain-fed", "Rain-fed_Snow-fed_Snow-fed")) %>%
-  select(taxa, Combination, combo_type, CV_C_R, CV_C_L, cv_diff, phi_C_L2R) %>%
+  select(taxa, Combination, combo_type, GammaHBD:HBD_reduction_factor) %>%
   group_by(taxa, Combination, combo_type) %>%
-  summarise_at(vars(CV_C_R, CV_C_L, cv_diff, phi_C_L2R), 
+  summarise_at(vars(GammaHBD, AlphaHBD, PhiHBD, HBD_diff, HBD_reduction_factor), 
                list(mean = ~mean(.x, na.rm = TRUE), 
                     sd = ~sd(.x, na.rm = TRUE), 
                     se = ~standard_error(.x)))
@@ -145,59 +145,59 @@ df_3 <- df_2 %>%
 df_3$combo_type <- ordered(df_3$combo_type,
                            levels = c("Heterogenous",  "2:1", "Homogenous"))
 df_3$taxa <- ordered(df_3$taxa,
-                     levels = c("Periphyton", "inverts", "fish"))
+                     levels = c("inverts", "fish"))
 
 
-meta_cv_2 <- ggplot(df_3, aes(x = combo_type, y = CV_C_R_mean, group = combo_type, fill = taxa)) +
+meta_tb_2 <- ggplot(df_3, aes(x = combo_type, y = GammaHBD_mean, group = combo_type, fill = taxa)) +
   geom_col(aes(color = taxa), alpha = 0.5, linewidth =1) +
-  geom_errorbar(aes(ymin = CV_C_R_mean - CV_C_R_sd, ymax = CV_C_R_mean + CV_C_R_sd, group = taxa), position = position_dodge(width = 0.9), width = 0.25) +
-  scale_fill_manual(values = c("darkgreen",  "deepskyblue", "darksalmon"))+
-  scale_colour_manual(values = c("darkgreen",  "deepskyblue", "darksalmon"))+
+  geom_errorbar(aes(ymin = GammaHBD_mean - GammaHBD_sd, ymax = GammaHBD_mean + GammaHBD_sd, group = taxa), position = position_dodge(width = 0.9), width = 0.25) +
+  scale_fill_manual(values = c( "deepskyblue", "darksalmon"))+
+  scale_colour_manual(values = c( "deepskyblue", "darksalmon"))+
   theme_classic() +
-  ylab("Metacommunity \nVariability (CV-C,R)")+
+  ylab("Metacommunity Compositional\nVariability (GammaHBD)")+
   #  theme(axis.title.y = element_text(size = 14),axis.title.x = element_blank(), axis.text.x = element_text(size = 12), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
-  theme(axis.title.y = element_text(size = 14),axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank(), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
+  theme(axis.title.y = element_text(size = 12),axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank(), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   
   facet_wrap(~taxa)
-meta_cv_2
+meta_tb_2
 
 
-local_cv_2 <- ggplot(df_3, aes(x = combo_type, y = CV_C_L_mean, group = combo_type, fill = taxa)) +
+local_tb_2 <- ggplot(df_3, aes(x = combo_type, y = AlphaHBD_mean, group = combo_type, fill = taxa)) +
   geom_col(aes(color = taxa), alpha = 0.5, linewidth =1) +
-  geom_errorbar(aes(ymin = CV_C_L_mean - CV_C_L_sd, ymax = CV_C_L_mean + CV_C_L_sd, group = taxa), position = position_dodge(width = 0.9), width = 0.25) +
-  scale_fill_manual(values = c("darkgreen",  "deepskyblue", "darksalmon"))+
-  scale_colour_manual(values = c("darkgreen",  "deepskyblue", "darksalmon"))+
+  geom_errorbar(aes(ymin = AlphaHBD_mean - AlphaHBD_sd, ymax = AlphaHBD_mean + AlphaHBD_sd, group = taxa), position = position_dodge(width = 0.9), width = 0.25) +
+  scale_fill_manual(values = c( "deepskyblue", "darksalmon"))+
+  scale_colour_manual(values = c( "deepskyblue", "darksalmon"))+
   theme_classic() +
-  ylab("Local Community \nVariability (CV-C,R)")+
+  ylab("Local Community Compositional\nVariability (AlphaHBD)")+
   # theme(axis.title.y = element_text(size = 14),axis.title.x = element_blank(), axis.text.x = element_text(size = 12), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
-  theme(axis.title.y = element_text(size = 14),axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank(),  axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
+  theme(axis.title.y = element_text(size = 12),axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank(),  axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   
   facet_wrap(~taxa)
-local_cv_2
+local_tb_2
 
 
-cv_diff_2<- ggplot(df_3, aes(x = combo_type, y = cv_diff_mean, group = combo_type, fill = taxa)) +
+tb_diff_2<- ggplot(df_3, aes(x = combo_type, y =  HBD_diff_mean, group = combo_type, fill = taxa)) +
   geom_col(aes(color = taxa), alpha = 0.5, linewidth =1) +
-  geom_errorbar(aes(ymin = cv_diff_mean - cv_diff_sd, ymax = cv_diff_mean + cv_diff_sd, group = taxa), position = position_dodge(width = 0.9), width = 0.25) +
+  geom_errorbar(aes(ymin =  HBD_diff_mean -  HBD_diff_sd, ymax =  HBD_diff_mean +  HBD_diff_sd, group = taxa), position = position_dodge(width = 0.9), width = 0.25) +
   theme_classic() +
-  scale_fill_manual(values = c("darkgreen",  "deepskyblue", "darksalmon"))+
-  scale_colour_manual(values = c("darkgreen",  "deepskyblue", "darksalmon"))+
-  ylab("Local to Metacommunity Variability Dampening \n(Metacommunity CV-Local Community CV)")+
-  theme(axis.title.y = element_text(size = 14),axis.title.x = element_blank(), axis.text.x = element_text(size = 12), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
+  scale_fill_manual(values = c( "deepskyblue", "darksalmon"))+
+  scale_colour_manual(values = c( "deepskyblue", "darksalmon"))+
+  ylab("Local to Metacommunity Compositional Variability Dampening \n(AlphaHBD-GammaHBD)")+
+  theme(axis.title.y = element_text(size = 12),axis.title.x = element_blank(), axis.text.x = element_text(size = 12), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   # theme(axis.title.y = element_text(size = 14),axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank(),  axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   
   facet_wrap(~taxa, nrow = 1)
-cv_diff_2
+tb_diff_2
 
 
-comm_async_2<- ggplot(df_3, aes(x = combo_type, y = phi_C_L2R_mean, group = combo_type, fill = taxa)) +
+comm_async_2<- ggplot(df_3, aes(x = combo_type, y = PhiHBD_mean, group = combo_type, fill = taxa)) +
   geom_col(aes(color = taxa), alpha = 0.5, linewidth =1) +
-  geom_errorbar(aes(ymin = phi_C_L2R_mean - phi_C_L2R_sd, ymax = phi_C_L2R_mean + phi_C_L2R_sd, group = taxa), position = position_dodge(width = 0.9), width = 0.25) +
+  geom_errorbar(aes(ymin = PhiHBD_mean - PhiHBD_sd, ymax = PhiHBD_mean + PhiHBD_sd, group = taxa), position = position_dodge(width = 0.9), width = 0.25) +
   theme_classic() +
-  scale_fill_manual(values = c("darkgreen",  "deepskyblue", "darksalmon"))+
-  scale_colour_manual(values = c("darkgreen",  "deepskyblue", "darksalmon"))+
+  scale_fill_manual(values = c( "deepskyblue", "darksalmon"))+
+  scale_colour_manual(values = c( "deepskyblue", "darksalmon"))+
   ylab("Community Level \nSpatial Synchrony")+
-  theme(axis.title.y = element_text(size = 14),axis.title.x = element_blank(), axis.text.x = element_text(size = 12), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
+  theme(axis.title.y = element_text(size = 12),axis.title.x = element_blank(), axis.text.x = element_text(size = 12), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   # theme(axis.title.y = element_text(size = 14),axis.title.x = element_blank(), axis.text.x = element_blank(), axis.ticks.x = element_blank(), axis.text.y = element_text(size = 12), legend.position = "right", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   
   facet_wrap(~taxa, nrow = 1)
@@ -205,13 +205,19 @@ comm_async_2
 
 
 
-meta_local_cv_2 <- ggarrange(meta_cv_2, local_cv_2, comm_async_2, legend = "none", 
-                             labels = c("a)", "b)", "c)"),
+meta_local_tb_2 <- ggarrange(meta_tb_2, local_tb_2, comm_async_2, legend = "none", 
+                            
                              ncol = 1, nrow = 3, font.label = list(colour = "black", size = 14, family = "Times New Roman"))
-meta_local_cv_2
+meta_local_tb_2
 
-final_fig <- ggarrange(meta_local_cv_2, cv_diff_2, legend = "none", ncol = 2, nrow = 1)
+final_fig <- ggarrange(meta_local_tb_2, tb_diff_2, legend = "none",  ncol = 2, nrow = 1, font.label = list(colour = "black", size = 14, family = "Times New Roman"))
+
 final_fig
+
+
+
+
+##old code from vp code
 
 cv_diff_peri <- df_3 %>%
   filter(taxa == "Periphyton") %>% 
