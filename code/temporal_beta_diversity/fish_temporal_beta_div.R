@@ -206,8 +206,8 @@ library(grid)
 library(ggpubr)
 
 ## Initialize global axis limits
-xlims_all <- c(Inf, -Inf)
-ylims_all <- c(Inf, -Inf)
+xlims_all <- c(0.7, -0.7)
+ylims_all <- c(0.5, -0.5)
 
 plot_nmds_trajectory <- function(df, combo_colors, label) {
   Y1 <- dcast(df, streamID_2 + Month_Year ~ species2, value.var = "iteration_total_biomass")
@@ -334,16 +334,16 @@ df_hom <- fish_df %>% filter(Combo == "Rain-fed_Rain-fed_Rain-fed")
 pD_hom <- plot_nmds_trajectory(df_hom, c("lightpink", "lightpink", "lightpink"), "c)")
 pD_hom
 # Apply unified axis limits to all plots
-#pD_het <- pD_het + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
-#pD_21  <- pD_21  + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
-#pD_hom <- pD_hom + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
+pD_het <- pD_het + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
+pD_21  <- pD_21  + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
+pD_hom <- pD_hom + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
 
 # Combine into a panel
-nmds_plot <- ggarrange(pD_het, pD_21, pD_hom, 
+nmds_plot_fish <- ggarrange(pD_het, pD_21, pD_hom, 
                        labels = c("a)", "b)", "c)"), 
                        ncol = 3, nrow = 1,
                        font.label = list(color = "black", size = 14, family = "Times New Roman"))
 
-nmds_plot
+nmds_plot_fish
 
 
