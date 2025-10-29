@@ -188,7 +188,7 @@ fish_plot <- ggplot()+
   xlab("Date") +
   ylab("Total Biomass (g)") +
  # ylim(0,2700)+
-  theme(axis.title.x = element_blank(), text = element_text(family = "Times New Roman", size = 14), legend.position  = "none", strip.text = element_blank()) +
+  theme(axis.title.y = element_text(size = 18),axis.title.x = element_blank(), axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), legend.position = "none", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   facet_wrap(~combo_type) +
   scale_x_discrete(labels = fish_df$month)
 
@@ -203,7 +203,7 @@ inverts_plot <- ggplot()+
   xlab("Date") +
   ylab("Total Biomass (g/m2)") +
   # ylim(0,2700)+
-  theme(axis.title.x = element_blank(), text = element_text(family = "Times New Roman", size = 14), legend.position  = "none", strip.text = element_blank()) +
+  theme(axis.title.y = element_text(size = 18),axis.title.x = element_blank(), axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), legend.position = "none", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   facet_wrap(~combo_type) +
   scale_x_discrete(labels = inverts_df$month)
 
@@ -218,7 +218,7 @@ peri_plot <- ggplot()+
   xlab("Date") +
   ylab("Total Biomass (g/m2)") +
   # ylim(0,2700)+
-  theme(axis.title.x = element_blank(), text = element_text(family = "Times New Roman", size = 14), legend.position  = "none", strip.text = element_blank()) +
+  theme(axis.title.y = element_text(size = 18),axis.title.x = element_blank(), axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), legend.position = "none", text = element_text(family = "Times New Roman"), strip.text = element_blank()) +
   facet_wrap(~combo_type) +
   scale_x_discrete(labels = peri_df$month)
 
@@ -227,6 +227,6 @@ peri_plot
 
 all_plot<- ggarrange(peri_plot, inverts_plot, fish_plot,
                      
-                     ncol = 1, nrow = 3, labels = c("a)", "b)", "c)"), font.label = list(colour = "black", size = 14, family = "Times New Roman"))
+                     ncol = 1, nrow = 3, labels = c("a)", "b)", "c)"), font.label = list(colour = "black", size = 18, family = "Times New Roman"))
 all_plot
 

@@ -143,8 +143,30 @@ invert_comp_fig
 ##summary statistics -- degree of decline in HBD 
 0.2310398/0.1758152
 
-##Glacial loss case study examples
+##Glacial loss case study examples ----------
+##create barplots for the 3 watershed types
 
+cs_inverts <- tb_results_all %>%
+  filter(Combo %in% c("Glacier-fed_Rain-fed_Snow-fed", "Rain-fed_Rain-fed_Rain-fed", "Rain-fed_Snow-fed_Snow-fed")) %>%
+  group_by(taxa, combo_type, Combo) %>%
+  summarise_at(vars(GammaHBD, AlphaHBD, PhiHBD, HBD_diff), list(mean = mean, sd = sd))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##Example trajectories figure ------
 ##Set up invert data -- randomly select 3 iterations, expand arrays into usable dfs
 set.seed(123)
 ##randomly select 3 iterations, will use to plot 
@@ -222,8 +244,8 @@ library(grid)
 library(ggpubr)
 
 ## Initialize global axis limits
-xlims_all <- c(Inf, -Inf)
-ylims_all <- c(Inf, -Inf)
+xlims_all <- c(0.7, -0.7)
+ylims_all <- c(0.7, -0.7)
 
 plot_nmds_trajectory <- function(df, combo_colors, label) {
   Y1 <- dcast(df, streamID_2 + Month_Year ~ Family.x, value.var = "iteration_total_biomass")
@@ -312,11 +334,13 @@ plot_nmds_trajectory <- function(df, combo_colors, label) {
   gg_theme <- theme(panel.grid.major = element_blank(),
                     panel.grid.minor = element_blank(),
                     panel.background = element_blank(),
-                    axis.text = element_text(size = 8),
-                    axis.title = element_text(size = 10),
-                    plot.title = element_text(face = "bold", hjust = 0.5, size = 14),
+                    axis.text = element_text(size = 16),
+                    axis.title = element_text(size = 18),
+                    plot.title = element_text(face = "bold", hjust = 0.5, size = 16),
                     legend.position = "bottom",
-                    legend.title = element_blank())
+                    legend.title = element_blank(),
+                    legend.text = element_text(size = 14),
+                    text = element_text(family = "Times New Roman"))
   
   p <- ggplot() +
     geom_point(data = points.start, aes(x = x, y = y, col = Site), size = 5) +
@@ -330,7 +354,8 @@ plot_nmds_trajectory <- function(df, combo_colors, label) {
                  col = "black", arrow = arrow(length = unit(0.5, "cm"), type = "closed")) +
     xlab("Axis 1") + ylab("Axis 2") +
     coord_fixed() + theme_bw() + gg_theme +
-    scale_color_manual(values = c(combo_colors, "black"))
+    scale_color_manual(values = c(combo_colors, "black")) +
+    guides(color = guide_legend(nrow = 2, byrow = TRUE))
   
   return(p)
 }
@@ -350,15 +375,15 @@ df_hom <- inverts_df %>% filter(Combo == "Rain-fed_Rain-fed_Rain-fed")
 pD_hom <- plot_nmds_trajectory(df_hom, c("skyblue", "skyblue", "skyblue"), "c)")
 pD_hom
 # Apply unified axis limits to all plots
-#pD_het <- pD_het + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
-#pD_21  <- pD_21  + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
-#pD_hom <- pD_hom + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
+pD_het <- pD_het + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
+pD_21  <- pD_21  + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
+pD_hom <- pD_hom + coord_cartesian(xlim = xlims_all, ylim = ylims_all)
 
 # Combine into a panel
 nmds_plot <- ggarrange(pD_het, pD_21, pD_hom, 
                        labels = c("a)", "b)", "c)"), 
                        ncol = 3, nrow = 1,
-                       font.label = list(color = "black", size = 14, family = "Times New Roman"))
+                       font.label = list(color = "black", size = 18, family = "Times New Roman"))
 
 nmds_plot
 
