@@ -62,7 +62,7 @@ for (i in 1:nrow(unique_combinations)) {
   replicated_data <- replicated_data %>%
     mutate(streamID_2 = paste(Stream, Replicate_Type, sep = "_"))
   #Create an xtabs array for the replicated dataframe
-  xtabs_array <- xtabs(Biomass ~ Species + Month_Year + streamID_2, data = replicated_data)
+  xtabs_array <- xtabs(Biomass ~ species2 + Month_Year + streamID_2, data = replicated_data)
   
   fish_xtabs_list[[paste(combo$site1, combo$site2, combo$site3, sep = "_")]] <- xtabs_array
 }
