@@ -36,7 +36,7 @@ var.partition <- function(metacomm_tsdata){
   phi_S2C_R <- CV_C_R/CV_S_R
   partition_3level <- c(CV_S_L=CV_S_L, CV_C_L=CV_C_L, CV_S_R=CV_S_R, CV_C_R=CV_C_R,
                         phi_S_L2R=phi_S_L2R, phi_C_L2R=phi_C_L2R, phi_S2C_L=phi_S2C_L,
-                        phi_S2C_R=phi_S2C_R)
+                        phi_S2C_R=phi_S2C_R,  mean_metacom = mean_metacom, sd_metacom = sd_metacom)
   return(partition_3level)
 }
 

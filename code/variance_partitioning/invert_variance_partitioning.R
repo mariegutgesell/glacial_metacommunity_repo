@@ -77,3 +77,23 @@ ggplot(results_df, aes(x = phi_S2C_L, y = phi_S2C_R, color = Combination)) +
   xlab("Local-scale species synchrony") +
   ylab("Regional-scale species synrchony")
 
+
+##saving df 
+inverts_results_df <- results_df %>%
+  mutate(combo_type = case_when(
+    startsWith(Combination, "Glacier-fed_Glacier-fed_Glacier-fed") ~ "Homogenous",
+    startsWith(Combination, "Glacier-fed_Glacier-fed_Rain-fed") ~ "2:1",
+    startsWith(Combination, "Glacier-fed_Glacier-fed_Snow-fed") ~ "2:1",
+    startsWith(Combination, "Glacier-fed_Rain-fed_Rain-fed") ~ "2:1",
+    startsWith(Combination, "Glacier-fed_Rain-fed_Snow-fed") ~ "Heterogenous",
+    startsWith(Combination, "Glacier-fed_Snow-fed_Snow-fed") ~ "2:1",
+    startsWith(Combination, "Rain-fed_Rain-fed_Rain-fed") ~ "Homogenous",
+    startsWith(Combination, "Rain-fed_Rain-fed_Snow-fed") ~ "2:1",
+    startsWith(Combination, "Rain-fed_Snow-fed_Snow-fed") ~ "2:1",
+    startsWith(Combination, "Snow-fed_Snow-fed_Snow-fed") ~ "Homogenous",
+  )) %>%
+  mutate(cv_diff = CV_C_L - CV_C_R) %>%
+  mutate(taxa = "inverts")
+
+
+write.csv(inverts_results_df, "data/variance_partitioning_results/invert_var_partition_results.csv")
